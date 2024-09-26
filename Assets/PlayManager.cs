@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayManager : MonoBehaviour
 {
     public CameraShaker cameraShaker;
+    public GameObject laserPrefab;
 
     void Update()
     {
@@ -35,9 +36,15 @@ public class PlayManager : MonoBehaviour
                 }
             }
 
-            if ((!combo.isMultiShot && selectedEnemyCount == 1) || (combo.isMultiShot && selectedEnemyCount > 1))
+            if (((!combo.isMultiShot && selectedEnemyCount == 1) || (combo.isMultiShot && selectedEnemyCount > 1)) && matchedEnemies.Count > 0)
             {
-                foreach (EnemyBehaviour enemy in matchedEnemies) Destroy(enemy.gameObject);
+                foreach (EnemyBehaviour enemy in matchedEnemies)
+                {
+                    enemy.SetFrozen(true);
+                    var laser = Instantiate(laserPrefab);
+                    laser.GetComponent<LaserBehaviour>().SetPath(transform.position, enemy.gameObject.transform.position, enemy.gameObject);
+                }
+
                 cameraShaker.Trigger();
             }
         }

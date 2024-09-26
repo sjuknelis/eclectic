@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameColor {
+public enum GameColor
+{
     Red,
     Orange,
     Yellow,

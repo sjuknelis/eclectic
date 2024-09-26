@@ -20,6 +20,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private bool isMouseOver = false;
     private int selectedTimer = 0;
+    private bool isFrozen = false;
 
     void Start()
     {
@@ -40,6 +41,8 @@ public class EnemyBehaviour : MonoBehaviour
 
     void Update()
     {
+        if (isFrozen) return;
+
         if (Input.GetMouseButton(0))
         {
             if (isMouseOver) selectedTimer = 5;
@@ -84,5 +87,10 @@ public class EnemyBehaviour : MonoBehaviour
     public bool IsSelected()
     {
         return selectedTimer > 0;
+    }
+
+    public void SetFrozen(bool isFrozen)
+    {
+        this.isFrozen = isFrozen;
     }
 }

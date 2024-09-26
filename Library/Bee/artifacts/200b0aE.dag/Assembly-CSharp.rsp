@@ -375,6 +375,7 @@
 "Assets/EnemyBehaviour.cs"
 "Assets/EnemySpawner.cs"
 "Assets/GameColor.cs"
+"Assets/LaserBehaviour.cs"
 "Assets/PlayManager.cs"
 "Assets/PowerBehaviour.cs"
 -langversion:9.0

@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject enemyPrefab;
     public float minTimer = 1.5f, maxTimer = 3;
 
-    private float timer = 3;
+    private float timer;
 
     void Start()
     {
