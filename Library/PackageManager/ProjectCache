@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638624423360000000
-    m_Hash: 1148302093
+      ticks: 638637624520000000
+    m_Hash: 3358060890
   m_LockFileStatus:
     m_FilePath: /Users/simasjuknelis/ecletic/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638624423360000000
-    m_Hash: 1399720451
+      ticks: 638637624590000000
+    m_Hash: 3631396814
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/simasjuknelis/ecletic/Packages
-m_EditorVersion: 2022.3.23f1 (dbb3f7c5b5c6)
+m_EditorVersion: 2022.3.48f1 (8bf49c377ebf)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.5.1
   testable: 0
@@ -118,12 +118,11 @@ m_ResolvedPackages:
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     compatible:
-    - 2.3.1
-    - 2.4.3
-    - 2.4.4
     - 2.5.1
-    recommended: 2.3.1
+    - 2.5.2
+    recommended: 2.5.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -161,19 +160,20 @@ m_ResolvedPackages:
     revision: 470a7a1321fe499cf5055d6b1d64da3a08c8dcbc
     path: 
   unityLifecycle:
-    version: 2.3.1
+    version: 2.5.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.feature.2d@2.0.0
+  fingerprint: 
+- packageId: com.unity.feature.2d@2.0.1
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  version: 2.0.1
   source: 2
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.feature.2d@2.0.0
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.feature.2d@2.0.1
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -192,10 +192,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.0
+    - 2.0.1
     compatible:
-    - 2.0.0
-    recommended: 2.0.0
+    - 2.0.1
+    recommended: 2.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.animation
@@ -216,11 +216,11 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 9.1.0
+    version: 9.1.2
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 8.0.3
   - name: com.unity.burst
-    version: 1.8.13
+    version: 1.8.17
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -244,9 +244,9 @@ m_ResolvedPackages:
   - name: com.unity.2d.pixel-perfect
     version: 5.0.3
   - name: com.unity.2d.psdimporter
-    version: 8.0.4
+    version: 8.0.5
   - name: com.unity.2d.spriteshape
-    version: 9.0.2
+    version: 9.0.4
   - name: com.unity.modules.physics2d
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -258,7 +258,7 @@ m_ResolvedPackages:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.2d.aseprite
-    version: 1.1.2
+    version: 1.1.6
   keywords: []
   registry:
     id: main
@@ -279,19 +279,20 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 2.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.28
+  fingerprint: 
+- packageId: com.unity.ide.rider@3.0.31
   testable: 0
   isDirectDependency: 1
-  version: 3.0.28
+  version: 3.0.31
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.ide.rider@3.0.28
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.ide.rider@3.0.31
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -352,7 +353,6 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     compatible:
-    - 3.0.28
     - 3.0.31
     recommended: 3.0.31
     deprecated: []
@@ -373,22 +373,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638447139880000000
+  datePublishedTicks: 638548308080000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f4880c72477e9bbd7321c0dbda4428fa10d916df
+    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
     path: 
   unityLifecycle:
-    version: 3.0.28
+    version: 3.0.31
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
@@ -478,6 +479,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
@@ -617,12 +619,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
+  fingerprint: 
+- packageId: com.unity.textmeshpro@3.0.7
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.7
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.textmeshpro@3.0.6
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.textmeshpro@3.0.7
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -631,7 +634,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -752,7 +755,6 @@ m_ResolvedPackages:
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
-    - 3.0.6
     - 3.0.7
     - 3.0.8
     - 3.0.9
@@ -796,22 +798,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638410382150000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 3.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.timeline@1.7.6
   testable: 0
   isDirectDependency: 1
@@ -981,6 +984,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1053,12 +1057,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.visualscripting@1.9.2
+  fingerprint: 
+- packageId: com.unity.visualscripting@1.9.4
   testable: 0
   isDirectDependency: 1
-  version: 1.9.2
+  version: 1.9.4
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.visualscripting@1.9.2
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.visualscripting@1.9.4
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1106,7 +1111,6 @@ m_ResolvedPackages:
     - 1.9.2
     - 1.9.4
     compatible:
-    - 1.9.2
     - 1.9.4
     recommended: 1.9.4
     deprecated:
@@ -1136,22 +1140,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638452551610000000
+  datePublishedTicks: 638488567680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 0dd874ef58a75ee4b4df6a81e65230e2602096a3
+    revision: 41aac2b7038c2b1259c546329890d3736ce2394e
     path: 
   unityLifecycle:
-    version: 1.9.2
+    version: 1.9.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1207,6 +1212,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1261,6 +1267,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1316,6 +1323,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1371,6 +1379,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1426,6 +1435,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1485,6 +1495,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1548,6 +1559,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1604,6 +1616,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1659,6 +1672,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1714,6 +1728,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1769,6 +1784,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1824,6 +1840,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1879,6 +1896,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1938,6 +1956,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1993,6 +2012,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2056,6 +2076,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2114,6 +2135,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2169,6 +2191,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2236,6 +2259,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2291,6 +2315,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2354,6 +2379,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2409,6 +2435,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2472,6 +2499,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2535,6 +2563,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2598,6 +2627,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2677,6 +2707,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2736,6 +2767,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2803,6 +2835,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2872,6 +2905,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2927,6 +2961,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2994,6 +3029,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3053,6 +3089,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
@@ -3124,12 +3161,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.animation@9.1.0
+  fingerprint: 
+- packageId: com.unity.2d.animation@9.1.2
   testable: 0
   isDirectDependency: 0
-  version: 9.1.0
+  version: 9.1.2
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.animation@9.1.0
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.animation@9.1.2
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3138,7 +3176,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
   status: 0
@@ -3273,14 +3311,12 @@ m_ResolvedPackages:
     - 10.1.2
     - 10.1.3
     compatible:
-    - 9.1.0
-    - 9.1.1
     - 9.1.2
     recommended: 9.1.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 8.0.3
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -3291,9 +3327,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 8.0.3
   - name: com.unity.burst
-    version: 1.8.13
+    version: 1.8.17
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -3327,22 +3363,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638406543510000000
+  datePublishedTicks: 638611449146660000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@9.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: dfc01cb8076aa8ca74afe1ded252f91c99b080ac
+    revision: b517ea51b616862c10c7454c9c1fcc174ed7ee3d
     path: 
   unityLifecycle:
-    version: 9.1.0
+    version: 9.1.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.pixel-perfect@5.0.3
   testable: 0
   isDirectDependency: 0
@@ -3426,12 +3463,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.psdimporter@8.0.4
+  fingerprint: 
+- packageId: com.unity.2d.psdimporter@8.0.5
   testable: 0
   isDirectDependency: 0
-  version: 8.0.4
+  version: 8.0.5
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.psdimporter@8.0.4
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.psdimporter@8.0.5
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -3528,7 +3566,6 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     compatible:
-    - 8.0.4
     - 8.0.5
     recommended: 8.0.5
     deprecated: []
@@ -3538,12 +3575,12 @@ m_ResolvedPackages:
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.animation
-    version: 9.1.0
+    version: 9.1.1
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 8.0.3
   - name: com.unity.burst
-    version: 1.8.13
+    version: 1.8.17
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -3559,7 +3596,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.2d.animation
-    version: 9.1.0
+    version: 9.1.2
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
@@ -3580,22 +3617,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638406543530000000
+  datePublishedTicks: 638515171920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@8.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: dfc01cb8076aa8ca74afe1ded252f91c99b080ac
+    revision: c76edf174a772eda3d3152a9d38ad8c364cce43e
     path: 
   unityLifecycle:
-    version: 8.0.4
+    version: 8.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3654,12 +3692,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.spriteshape@9.0.2
+  fingerprint: 
+- packageId: com.unity.2d.spriteshape@9.0.4
   testable: 0
   isDirectDependency: 0
-  version: 9.0.2
+  version: 9.0.4
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.spriteshape@9.0.2
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.spriteshape@9.0.4
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -3668,7 +3707,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: asset
+  type: assets
   description: SpriteShape Runtime & Editor Package contains the tooling and the
     runtime component that allows you to create very organic looking spline based
     2D worlds. It comes with intuitive configurator and a highly performant renderer.
@@ -3765,23 +3804,21 @@ m_ResolvedPackages:
     - 10.0.5
     - 10.0.6
     compatible:
-    - 9.0.2
-    - 9.0.3
     - 9.0.4
     recommended: 9.0.4
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 8.0.3
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 8.0.3
   - name: com.unity.burst
-    version: 1.8.13
+    version: 1.8.17
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -3815,22 +3852,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638150103540000000
+  datePublishedTicks: 638567250110000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: ff926a6d093212af31bc3c835f61abfbb1b3f163
+    revision: 317cb5a2d84ec8711e66cbcce61bc6179da9d791
     path: 
   unityLifecycle:
-    version: 9.0.2
+    version: 9.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3904,6 +3942,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.tilemap.extras@3.1.2
   testable: 0
   isDirectDependency: 0
@@ -4032,12 +4071,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.aseprite@1.1.2
+  fingerprint: 
+- packageId: com.unity.2d.aseprite@1.1.6
   testable: 0
   isDirectDependency: 0
-  version: 1.1.2
+  version: 1.1.6
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.aseprite@1.1.2
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.aseprite@1.1.6
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -4046,7 +4086,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: 2D Aseprite Importer is a package which enables the import of .aseprite
     files from the Pixel Art tool Aseprite.
   status: 0
@@ -4067,10 +4107,6 @@ m_ResolvedPackages:
     - 1.1.5
     - 1.1.6
     compatible:
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.1.5
     - 1.1.6
     recommended: 1.1.6
     deprecated: []
@@ -4085,9 +4121,9 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 8.0.3
   - name: com.unity.burst
-    version: 1.8.13
+    version: 1.8.17
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -4118,28 +4154,29 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638460923030000000
+  datePublishedTicks: 638608683682080000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: 8275421014cb00f6e46a4dd3d73132df4b144ad4
+    revision: 74d430549e8f10c1cde9a19b90ceaf626f1111eb
     path: 
   unityLifecycle:
-    version: 1.1.2
+    version: 1.1.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.common@8.0.2
+  fingerprint: 
+- packageId: com.unity.2d.common@8.0.3
   testable: 0
   isDirectDependency: 0
-  version: 8.0.2
+  version: 8.0.3
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.common@8.0.2
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.2d.common@8.0.3
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4213,7 +4250,6 @@ m_ResolvedPackages:
     - 9.0.5
     - 9.0.6
     compatible:
-    - 8.0.2
     - 8.0.3
     recommended: 8.0.3
     deprecated: []
@@ -4230,7 +4266,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.13
+    version: 1.8.17
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -4257,22 +4293,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638373846610000000
+  datePublishedTicks: 638567250090000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@8.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: b7537404d2cb8ef24b567ac4733b4c586fb25b44
+    revision: 317cb5a2d84ec8711e66cbcce61bc6179da9d791
     path: 
   unityLifecycle:
-    version: 8.0.2
+    version: 8.0.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
@@ -4349,6 +4386,7 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.collections@1.2.4
   testable: 0
   isDirectDependency: 0
@@ -4466,7 +4504,7 @@ m_ResolvedPackages:
     - 2.5.0-exp.1
     - 2.5.0-pre.2
     - 2.5.1
-    recommended: 1.2.4
+    recommended: 2.5.1
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -4475,7 +4513,7 @@ m_ResolvedPackages:
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.13
+    version: 1.8.17
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.jsonserialize
@@ -4511,17 +4549,18 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 2.5.1
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.burst@1.8.13
+  fingerprint: 
+- packageId: com.unity.burst@1.8.17
   testable: 0
   isDirectDependency: 0
-  version: 1.8.13
+  version: 1.8.17
   source: 1
-  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.burst@1.8.13
+  resolvedPath: /Users/simasjuknelis/ecletic/Library/PackageCache/com.unity.burst@1.8.17
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4671,10 +4710,6 @@ m_ResolvedPackages:
     - 1.8.17
     - 1.8.18
     compatible:
-    - 1.8.13
-    - 1.8.14
-    - 1.8.15
-    - 1.8.16
     - 1.8.17
     - 1.8.18
     recommended: 1.8.18
@@ -4700,19 +4735,21 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638459163600000000
+  datePublishedTicks: 638573293750000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 018c84715a0efcfda7f76841a1b0b0366e55f407
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 234303811291ae524719609ac4e9ca24be4b58dd
     path: 
   unityLifecycle:
-    version: 1.8.13
+    version: 1.8.17
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
+m_BuiltInPackagesHash: f8c75c7cb84b065cb30c3dd708a8c60fdae5793a
